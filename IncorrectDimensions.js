@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions on Android.  The issue arises when you try to access the `width` or `height` properties before the `Dimensions` object is fully initialized.  This often happens during the initial render of your component, especially if you're trying to use the dimensions to set styles.
